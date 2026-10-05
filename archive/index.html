@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+  <head>
+    <title>Do you wanna go on a date with me?</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+        <div id="ask" class="container">
+            <div>
+                <h1 class = "header_text" style="color:white;">Aastha will you wanna go out with me?</h1>
+            </div>
+            <div class="gif_container">
+                <img src="image/ask.gif" alt="Cute animated illustration">
+            </div>
+            <div class = "buttons">
+                <button class="btn" id = "yesButton" onclick="nextPage()">Yes</button>
+                <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">No</button>
+            </div>
+            <video id="novideo" width="0" height="0" controls>
+                <source src="image/SadMoment.mp4" 
+                   type="video/mp4">
+            </video>
+        </div>
+        <div id="ans" class="container">
+            <div >
+                <h1 class = "header_text" style="color:grey;">I think I like you dude! It is not a proposal yet.</h1>
+            </div>
+            <div class="gif_container">
+                <img src="image/ans.gif" alt="Cute animated illustration">
+            </div>
+            <div class="slideshow-container">
+
+                <img class="mySlides" src="image/1.jpg" style="width:100%">
+                <img class="mySlides" src="image/2.jpg" style="width:100%">
+                <img class="mySlides" src="image/3.jpeg" style="width:100%">
+                <img class="mySlides" src="image/4.jpeg" style="width:100%">
+
+
+            </div>
+            <video id="ansvideo" width="0" height="0" controls>
+                <source src="image/KidsCheering.mp4" 
+                   type="video/mp4">
+            </video>
+        </div>
+
+
+    </body> 
+    <script>
+
+
+        function playAudio()
+        {
+            document.getElementById('novideo').play();
+        }
+
+        function nextPage() {
+            //window.location.href = "yes.html";
+            document.getElementById('ans').style.display = 'block';
+            document.getElementById('ask').style.display = 'none';
+            document.getElementById('novideo').pause();
+            document.getElementById('ansvideo').play();
+        }
+
+        function moveButton() {
+            var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth);
+            var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight);
+            document.getElementById('noButton').style.left = `${x}px`;
+            document.getElementById('noButton').style.top = `${y}px`;
+            playAudio();
+        }
+
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}
+            x[myIndex-1].style.display = "block";
+            setTimeout(carousel, 3000);
+        }
+    </script>
+</html>

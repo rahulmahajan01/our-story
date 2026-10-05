@@ -1,0 +1,13 @@
+{
+  "note": "Drop photos into image/gallery/ and list them here. Captions optional.",
+  "photos": [
+    { "src": "image/gallery/1.jpg", "caption": "" },
+    { "src": "image/gallery/2.jpg", "caption": "" },
+    { "src": "image/gallery/3.jpg", "caption": "" },
+    { "src": "image/gallery/4.jpg", "caption": "" },
+    { "src": "image/gallery/5.jpg", "caption": "" },
+    { "src": "image/gallery/6.jpg", "caption": "" },
+    { "src": "image/gallery/7.jpg", "caption": "" },
+    { "src": "image/gallery/8.jpg", "caption": "" }
+  ]
+}

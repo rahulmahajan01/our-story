@@ -1,0 +1,11 @@
+{
+  "names": { "him": "Rahul", "her": "Aastha" },
+  "relationshipStart": "2026-02-09T00:00:00+05:30",
+  "nextMeeting": "2026-10-15T00:00:00+05:30",
+  "birthdays": { "him": "1999-10-31", "her": "2000-10-15" },
+  "cities": {
+    "him": { "name": "Benguluru", "lat": null, "lon": null },
+    "her": { "name": "Chandigarh", "lat": null, "lon": null }
+  },
+  "music": { "enabled": true }
+}

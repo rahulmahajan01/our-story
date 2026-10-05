@@ -1,0 +1,98 @@
+{
+  "milestones": [
+    {
+      "id": "first-ask",
+      "icon": "💻",
+      "title": "The First Ask",
+      "date": "20.01.2024",
+      "state": "open",
+      "content": {
+        "title": "💻 The First Ask — 20 Jan 2024",
+        "body": "I built a whole website to ask her out. She said: let's stay friends.\n\nThe website never went offline. Neither did the feeling.",
+        "link": { "href": "archive/index.html", "label": "🏛️ visit the original site" }
+      }
+    },
+    {
+      "id": "together",
+      "icon": "💘",
+      "title": "The Day We Said It",
+      "date": "09.02.2026",
+      "state": "open",
+      "content": {
+        "title": "💘 9 Feb 2026",
+        "body": "I still remember the moment! I jumped out of bed in excitement when you said you wanted to kiss me rn and I confessed immediately 🙂‍↔️"
+      }
+    },
+    {
+      "id": "the-date",
+      "icon": "💌",
+      "title": "For Aastha",
+      "date": "15.10.2026",
+      "state": "sealed",
+      "encrypted": "envelopes/the-date.json",
+      "passwordHint": "the day we finally said it — DDMMYYYY"
+    },
+    {
+      "id": "her-turn",
+      "icon": "🎂",
+      "title": "For Rahul",
+      "date": "31.10.2026",
+      "state": "teaser",
+      "tease": "reserved for Aastha to write 🖊️ (yes, you. it's a ritual now.)"
+    },
+    {
+      "id": "proposal",
+      "icon": "💍",
+      "title": "The Proposal",
+      "date": "**.**.20**",
+      "state": "teaser",
+      "tease": "patience, gupta 😌"
+    },
+    {
+      "id": "roka",
+      "icon": "🪔",
+      "title": "Roka",
+      "date": "**.**.20**",
+      "state": "teaser",
+      "tease": "not yet. but yes, it's on the shelf for a reason."
+    },
+    {
+      "id": "marriage",
+      "icon": "👰",
+      "title": "Marriage",
+      "date": "**.**.20**",
+      "state": "teaser",
+      "tease": "So eager to become mahajan? 😙"
+    },
+    {
+      "id": "someday",
+      "icon": "✨",
+      "title": "…",
+      "date": "",
+      "state": "empty",
+      "tease": "this shelf isn't done."
+    }
+  ],
+  "openWhen": [
+    {
+      "id": "miss-me",
+      "title": "Open when you miss me",
+      "body": "Babe pick up the phone and call me na!! (Or Maybe skyscanner can help! 😌"
+    },
+    {
+      "id": "bad-day",
+      "title": "Open when you've had a bad day",
+      "body": "Who dare ruine my girlfriend's mood! Tell me the name and he/she is DEAD!!!"
+    },
+    {
+      "id": "we-fight",
+      "title": "Open when we fight",
+      "body": "I Still have one Trump card to nutify the fight"
+    },
+    {
+      "id": "2am",
+      "title": "Open at 2 AM when you can't sleep",
+      "body": "Call me, we will sleep together"
+    }
+  ]
+}

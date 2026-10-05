@@ -1,0 +1,212 @@
+{
+  "intro": {
+    "title": "Our Story",
+    "subtitle": "a scrapbook, 1999 → forever",
+    "note": "scroll slowly. some photos do things when you tap them 👀"
+  },
+  "eras": [
+    {
+      "id": "before-us",
+      "title": "Before “us”",
+      "song": "audio/era-before-us.mp3",
+      "entries": [
+        {
+          "date": "31 Oct 1999",
+          "title": "A Halloween baby arrives",
+          "text": "Somewhere, a very dramatic child is born. He will grow up to build websites for a girl he hasn't met yet.",
+          "photos": ["image/era-before-us/him-baby.jpg"]
+        },
+        {
+          "date": "15 Oct 2000",
+          "title": "The world gets its best idea",
+          "text": "350 days later — almost exactly, like the universe was pacing itself — you arrived.",
+          "photos": ["image/era-before-us/her-baby.jpg"]
+        },
+        {
+          "date": "October",
+          "title": "October babies 🍂",
+          "text": "Born 350 days apart, both in October. Same favourite month before we even knew each other. The universe wasn't subtle.",
+          "flourish": true
+        }
+      ]
+    },
+    {
+      "id": "school",
+      "title": "School days",
+      "song": "audio/era-school.mp3",
+      "entries": [
+        {
+          "date": "Somewhere in school",
+          "title": "We met",
+          "text": "Two kids in the same school. Nothing special yet. (Everything special, actually. We just didn't know.)",
+          "photos": ["image/era-school/school-1.jpg"]
+        },
+        {
+          "date": "7 Oct 2012",
+          "title": "The Pollution PPT",
+          "text": "Our first project together. A PowerPoint about pollution. Tap the film strip — yes, the footage survived.",
+          "photos": ["image/era-school/ppt-still.jpg"],
+          "egg": { "type": "video", "src": "video/ppt-2012.mp4", "hint": "▶ tap to play the 2012 tape" }
+        },
+        {
+          "date": "2012–2013",
+          "title": "We could NOT stand each other",
+          "text": "Genuinely. Sworn enemies. If someone had told either of us how this story ends, we'd have laughed them out of the classroom.",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "id": "growing-up",
+      "title": "Growing up",
+      "song": "audio/era-growing-up.mp3",
+      "entries": [
+        {
+          "date": "2013",
+          "title": "Fine. Friends.",
+          "text": "The hating got exhausting. Friendship happened the way it does at that age — suddenly, and like it had always been there.",
+          "photos": ["image/era-growing-up/friends-1.jpg"]
+        },
+        {
+          "date": "soon after",
+          "title": "Best friends",
+          "text": "The upgrade nobody announced but everybody could see.",
+          "photos": ["image/era-growing-up/friends-2.jpg"]
+        },
+        {
+          "date": "2014",
+          "title": "The flirting era",
+          "text": "“We're just friends.” Sure. Okay. Noted.",
+          "photos": ["image/era-growing-up/flirting.jpg"]
+        },
+        {
+          "date": "2015",
+          "title": "You said it first",
+          "text": "You confessed. I'll never let you forget that technically, you liked me first.",
+          "photos": ["image/era-growing-up/confession.jpg"]
+        },
+        {
+          "date": "after that",
+          "title": "Back to best friends",
+          "text": "Wrong time, right person. We filed it away and stayed each other's favourite people.",
+          "photos": ["image/era-growing-up/best-friend-1.jpg", "image/era-growing-up/best-friend-2.jpg"]
+        }
+      ]
+    },
+    {
+      "id": "first-ask",
+      "title": "The first ask",
+      "song": "audio/era-first-ask.mp3",
+      "entries": [
+        {
+          "date": "20 Jan 2024",
+          "title": "I built you a website",
+          "text": "A whole website. With a “No” button that ran away from your cursor. You said let's stay friends. The website said nothing. It just stayed online.",
+          "photos": ["image/era-first-ask/gupta-screenshot.jpg"],
+          "archive": { "href": "archive/index.html", "label": "🏛️ visit the original — preserved exactly as it was" }
+        },
+        {
+          "date": "2024",
+          "title": "The awkward patch",
+          "text": "Things got quiet and a little strange for a while. Some chapters are mostly white space.",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "id": "footing",
+      "title": "Finding our footing",
+      "song": "audio/era-footing.mp3",
+      "entries": [
+        {
+          "date": "early 2025",
+          "title": "Life rearranged itself",
+          "text": "Your mom got transferred, and suddenly the kitchen was your problem.",
+          "photos": []
+        },
+        {
+          "date": "25 Mar 2025",
+          "title": "The aata lesson 🫓",
+          "text": "I taught you to knead dough. You were terrible at it. It was the best day I'd had in months. Tap the photo.",
+          "photos": ["image/era-footing/aata.jpg"],
+          "egg": { "type": "video", "src": "video/aata.mp4", "hint": "▶ evidence of the terrible kneading" }
+        },
+        {
+          "date": "spring 2025",
+          "title": "Almost normal again",
+          "text": "Slowly, the old rhythm came back. Almost.",
+          "photos": ["image/era-footing/normal-1.jpg", "image/era-footing/normal-2.jpg", "image/era-footing/normal-3.jpg"]
+        }
+      ]
+    },
+    {
+      "id": "quiet",
+      "title": "The quiet months",
+      "song": "audio/era-quiet.mp3",
+      "quiet": true,
+      "entries": [
+        {
+          "date": "summer 2025",
+          "title": "We lost our way for a while",
+          "text": "Some seasons are just hard. We stopped talking. I won't pretend it didn't matter — it did. But this scrapbook keeps going, and so did we.",
+          "photos": []
+        },
+        {
+          "date": "Aug 2025",
+          "title": "A continent of distractions",
+          "text": "I spent a whole month crossing Europe trying not to think about you. For the record: it did not work. Not in Italy, not in Paris, not anywhere.",
+          "photos": ["image/era-quiet/europe-1.jpg", "image/era-quiet/europe-2.jpg", "image/era-quiet/europe-3.jpg"]
+        }
+      ]
+    },
+    {
+      "id": "way-back",
+      "title": "The way back",
+      "song": "audio/era-way-back.mp3",
+      "entries": [
+        {
+          "date": "2 Nov 2025",
+          "title": "I just wanted to be there",
+          "text": "On one of your family's hardest days, nothing else mattered except being near. We talked a little. Small words, after a long silence. It was a start.",
+          "photos": []
+        },
+        {
+          "date": "17 Nov 2025",
+          "title": "My sister's roka",
+          "text": "I invited you. You came. Somewhere between the ceremonies and the chaos, things started feeling like us again.",
+          "photos": ["image/era-way-back/roka.jpg"]
+        }
+      ]
+    },
+    {
+      "id": "us",
+      "title": "Us",
+      "song": "audio/era-us.mp3",
+      "entries": [
+        {
+          "date": "9 Feb 2026",
+          "title": "We finally said it",
+          "text": "I confessed. And this time — you did too. Fourteen years after a pollution PPT, two years after a runaway No button: us. Officially.",
+          "photos": ["image/era-us/together-1.jpg", "image/era-us/together-2.jpg"],
+          "egg": { "type": "note", "text": "you found the hidden note. nerd. i love you. — R" }
+        },
+        {
+          "date": "2026",
+          "title": "Long distance, short patience",
+          "text": "Different cities, same phone glued to hand. Countdowns, call screenshots, tickets booked for any excuse.",
+          "photos": ["image/era-us/ld-1.jpg", "image/era-us/ld-2.jpg", "image/era-us/ld-3.jpg"]
+        }
+      ]
+    },
+    {
+      "id": "today",
+      "title": "Which brings us to today",
+      "song": "audio/era-today.mp3",
+      "finale": {
+        "text": "15 October 2026. Your birthday. I'm here, in person, no screens between us. And there's a sealed envelope with your name on it.",
+        "cta": { "href": "letters.html", "label": "💌 open the Letters shelf" }
+      },
+      "entries": []
+    }
+  ]
+}
